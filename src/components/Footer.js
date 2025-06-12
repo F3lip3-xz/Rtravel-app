@@ -1,11 +1,11 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
 
-const Footer = () => {
+const Footer = ({ year = new Date().getFullYear() }) => {
   return (
     <footer className="bg-light text-center text-lg-start">
       <Container className="p-4">
-        <p className="text-muted">© 2025 Travel_App @Felipe Henriquez</p>
+        <p className="text-muted">© {year} Travel_App @Felipe Henriquez</p>
       </Container>
     </footer>
   );
