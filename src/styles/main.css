@@ -1,0 +1,49 @@
+/* Estilos para la página de inicio */
+.home-container {
+  background: linear-gradient(135deg, #6e8efb, #b9a8ff);
+  color: white;
+  padding: 4rem 2rem;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.home-container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.home-container p {
+  font-size: 1.2rem;
+}
+
+/* Estilos para las tarjetas de destino, hotel, etc. */
+.card {
+  margin: 1rem;
+  border: none;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card-img-top {
+  height: 180px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 1.5rem;
+}
+
+.card-title {
+  color: #6e8efb;
+}
+
+.card-text {
+  color: #666;
+}
