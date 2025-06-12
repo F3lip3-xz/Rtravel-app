@@ -9,14 +9,22 @@ const flights = [
 
 const Flights = () => {
   return (
-    <Container>
-      <h1>Flights</h1>
-      <Row>
-        {flights.map((flight, index) => (
-          <Flight key={index} {...flight} />
-        ))}
-      </Row>
-    </Container>
+    <section className="py-5 bg-light">
+      <Container>
+        <h1 className="text-center mb-4">Available Flights</h1>
+        <Row className="g-4">
+          {flights.map((flight, index) => (
+            <Flight
+              key={index}
+              origin={flight.origin}
+              destination={flight.destination}
+              time={flight.time}
+              price={flight.price}
+            />
+          ))}
+        </Row>
+      </Container>
+    </section>
   );
 };
 

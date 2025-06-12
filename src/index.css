@@ -1,21 +1,22 @@
 body {
   margin: 0;
   font-family: 'Arial', sans-serif;
-  background-color: #f8f9fa;
+  background-color: #f0f2f5;
   color: #333;
 }
 
 .navbar {
-  background-color: #6e8efb;
+  background: linear-gradient(90deg, #6e8efb, #a777e3);
   padding: 1rem;
 }
 
 .navbar-brand, .nav-link {
   color: white !important;
+  font-weight: bold;
 }
 
 .nav-link:hover {
-  color: #f8f9fa !important;
+  color: #f0f2f5 !important;
 }
 
 .container {
@@ -28,14 +29,18 @@ body {
 
 h1 {
   color: #6e8efb;
+  font-weight: bold;
 }
 
 footer {
-  background-color: #6e8efb;
+  background: linear-gradient(90deg, #6e8efb, #a777e3);
   color: white;
   text-align: center;
   padding: 1rem;
   position: fixed;
   bottom: 0;
   width: 100%;
+}
+footer p {
+  margin: 0;
 }

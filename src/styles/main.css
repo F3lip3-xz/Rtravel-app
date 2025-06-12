@@ -1,16 +1,16 @@
 /* Estilos para la página de inicio */
 .home-container {
-  background: linear-gradient(135deg, #6e8efb, #b9a8ff);
+  background: linear-gradient(135deg, #6e8efb, #a777e3);
   color: white;
   padding: 4rem 2rem;
   text-align: center;
   border-radius: 8px;
+  margin-bottom: 2rem;
 }
 
 .home-container h1 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
-  color: white;
 }
 
 .home-container p {
@@ -24,11 +24,12 @@
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card:hover {
   transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .card-img-top {
@@ -42,6 +43,7 @@
 
 .card-title {
   color: #6e8efb;
+  font-weight: bold;
 }
 
 .card-text {
